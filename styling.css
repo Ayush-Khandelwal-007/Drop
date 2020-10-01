@@ -9,7 +9,9 @@ body{
     background: rgb(18, 18, 47);
 }
 #wave{
+    position: absolute;
     border-radius: 50%;
+    display:none;
     width: 100px;
     height: 100px;
     margin:  auto;
@@ -20,6 +22,18 @@ body{
     animation: wavee 2s ease-in-out infinite;
 }
 @keyframes wavee{
+    from{
+        transform: scale(0);
+        opacity: 1;
+    }
+    to{
+        transform: scale(4);
+        opacity: 0;
+        filter: blur(5px);
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes wavee{
     from{
         transform: scale(0);
         opacity: 1;
