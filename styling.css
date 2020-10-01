@@ -12,8 +12,8 @@ body{
     position: absolute;
     border-radius: 50%;
     display:none;
-    width: 100px;
-    height: 100px;
+    width: 12vh;
+    height: 12vh;
     margin:  auto;
     box-shadow:5px 5px 7px rgb(6, 6, 20),
                 -2px -2px 7px rgb(117, 117, 168),

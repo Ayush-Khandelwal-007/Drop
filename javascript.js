@@ -4,8 +4,8 @@ $(document).ready(function () {
         $("#wave")
             .css({
                 position: 'absolute',
-                left: e.pageX-50,
-                top: e.pageY-50,
+                left: e.pageX-($("#wave").width()/2),
+                top: e.pageY-($("#wave").height()/2),
                 display: 'block'
             }).delay(1850).fadeOut(); 	// Explode effect using jQuery.
     });
